@@ -14,6 +14,7 @@ with open('foo.txt') as foo:
     read_foo = foo.read()
 
 print(read_foo)
+
 print(foo.closed)
 
 # Open up a file called "bar.txt" (which doesn't exist yet) for
@@ -25,5 +26,6 @@ print(foo.closed)
 bar = open('bar.txt', 'w')
 bar.write("The first line\n the second line\n the third line")
 bar.close()
+
 print(bar.closed)
 

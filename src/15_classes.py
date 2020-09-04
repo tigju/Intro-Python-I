@@ -33,12 +33,12 @@ class Geocache(Waypoint):
 
 
 # Make a new waypoint and print it out: "Catacombs", 41.70505, -121.51521
-waypoint = Waypoint("Catacombs", 41.70505, -121.51521)
+
 # YOUR CODE HERE
-print(waypoint)
+waypoint = Waypoint("Catacombs", 41.70505, -121.51521)
 # Without changing the following line, how can you make it print into something
 # more human-readable? Hint: Look up the `object.__str__` method
-# print(waypoint)
+print(waypoint)
 
 # Make a new geocache "Newberry Views", diff 1.5, size 2, 44.052137, -121.41556
 

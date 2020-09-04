@@ -4,5 +4,5 @@
 # YOUR CODE HERE
 print(2**65536)
 
-## if you try it in JS console, pop up window prompts to print 
+## if you try it in JS console, pop up window prompts to print
 # the current web page

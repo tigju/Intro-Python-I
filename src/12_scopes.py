@@ -4,9 +4,11 @@
 # When you use a variable in a function, it's local in scope to the function.
 x = 12
 
+
 def change_x():
     global x
     x = 99
+
 
 change_x()
 
@@ -14,6 +16,7 @@ change_x()
 print(x)
 
 # This nested function has a similar problem.
+
 
 def outer():
     outer.y = 120
@@ -28,5 +31,6 @@ def outer():
     # 999?
     # Note: Google "python nested function scope".
     print(outer.y)
+
 
 outer()

@@ -28,4 +28,3 @@ bar.write("The first line\n the second line\n the third line")
 bar.close()
 
 print(bar.closed)
-

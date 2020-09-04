@@ -41,8 +41,9 @@ if __name__ == "__main__":
         datetime.today().year, datetime.today().month))
 
   elif len(sys.argv) == 2:
-    print(calendar.TextCalendar().formatmonth(datetime.today().year, int(sys.argv[1])))
-    
+    print(calendar.TextCalendar().formatmonth(
+        datetime.today().year, int(sys.argv[1])))
+
   elif len(sys.argv) == 3:
     print(calendar.TextCalendar().formatmonth(
         int(sys.argv[2]), int(sys.argv[1])))
